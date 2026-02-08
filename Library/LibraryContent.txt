@@ -4,7 +4,7 @@ Bookcase:Openings
 Description:Workbooks examining theory and practice of various Openings.
 	Shelf:General
 	Description: Openings analyzed for both sides.
-		Book:The SHREERAM System
+		Book:The PACHU System
 		Description: A comprehensive overview of the omnipresent London System.
 		File: Openings/General/London System.pgn
 	Shelf:White repertoire
