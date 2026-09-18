@@ -1,5 +1,5 @@
 Redirect:
-Message:
+Message:PACHU
 Bookcase:e3-e4
 Description:
 	Shelf:QGD-LONDON
