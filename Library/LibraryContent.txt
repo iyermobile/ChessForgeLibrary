@@ -1,56 +1,60 @@
 Redirect:
 Message:
-Bookcase:Openings
-Description:Workbooks examining theory and practice of various Openings.
-	Shelf:General
-		Book:The SHREERAM System
+Bookcase:e3-e4
+Description:
+	Shelf:QGD-LONDON
+		Book:ALPHA-ALPHA-VIOLET-JAN-SUN
+		Description:
 		File: Openings/General/London System.pgn
-	Shelf:White repertoire
-	Description: Openings analyzed from the White player's point of view.
+		Book:ALPHA-ALPHA-VIOLET-JAN-MON
+		Description:
+		File: Openings/White/Budapest for White.pgn
+	Shelf:QGD-JOBAVA
+	Description:
 		Book:Budapest Gambit
-		Description: A few options to safely counter the Budapest Gambit.
+		Description:
 		File: Openings/White/Budapest for White.pgn
 		Book:King's Indian - Karpov Variation
-		Description:A very popular and effective variation against King's Indian at all levels.
+		Description:
 		File: Openings/White/King's Indian - Karpov variation for White.pgn
 		Book:Smith-Morra Gambit
-		Description: A popular anti-Sicilian weapon.
+		Description:
 		File: Openings/White/Smith Morra Gambit.pgn
 		Book:Evans Gambit
-		Description: A concise presentation of one of the most famous, classical gambits.
+		Description:
 		File: Openings/White/Evans Gambit Starter Kit.pgn
 	Shelf:Black repertoire
-	Description: Openings analyzed from the Black player's point of view.
+	Description:
 		Book:Classical Sicilian 2...d6, 5...Nc6
-		Description: The classical, always popular at the highest level system in the Sicilian Defense.
+		Description:efense.
 		File: Openings/Black/Classical Sicilian for Black.pgn
 		Book:Caro-Kann
-		Description: All the lines you need to know to play Caro-Kann.
+		Description:
 		File: Openings/Black/Caro-Kann for Black.pgn
 		Book:Exchange French
-		Description: Breaking symmetry when facing the Exchange Variation in the French.
+		Description:
 		File: Openings/Black/French Exchange for Black.pgn
 		Book:Ragozin Defense
-		Description: A solid addition to one's repertoire against 1.d4.
+		Description:
 		File: Openings/Black/Ragozin for Black.pgn
 		Book:Stafford Gambit Traps
-		Description: Eric Rosen's entertaining treatise on the Stafford Gambit.  Adapted from Eric's lichess study.
+		Description:ic's lichess study.
 		File: Openings/Black/Stafford Gambit for Black.pgn
 	Shelf:Unorthodox Openings
-	Description: Short booklets on rare, unorthodox openings. 
+	Description:
 		Book:The Elephant Gambit
-		Description: These days extinct in masters' practice but a 1.e4 player must know it.
+		Description:
 		File: Openings/Unorthodox/Elephant Gambit.pgn
 		Book:The Nakhmanson Gambit
-		Description: An aggressive knight sacrifice in the Italian Game.
+		Description:
 		File: Openings/Unorthodox/Nakhmanson Gambit.pgn
 Bookcase: Endgames and Exercises
-Description: Collections of endgames and exercises.
+Description:
 	Shelf:Endgames
-	Description: 
+	Description:
 		Book:Endgames by NoseKnowsAll
-		Description: Great selection of endgames imported from a lichess study by NoseKnowsAll@lichess.
+		Description:ichess.
 		File: Endgames/Endgames by NoseKnowsAll.pgn
 		Book:Checkmate Patterns
-		Description: Basic checkmate patterns named and illustrated.
+		Description:
 		File: Endgames/Checkmate Patterns.pgn
