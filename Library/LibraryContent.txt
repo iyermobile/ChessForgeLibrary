@@ -3,7 +3,7 @@ Message:
 Bookcase:Openings
 Description:Workbooks examining theory and practice of various Openings.
 	Shelf:General
-		Book:The SHREE System
+		Book:The SHREERAM System
 		File: Openings/General/London System.pgn
 	Shelf:White repertoire
 	Description: Openings analyzed from the White player's point of view.
