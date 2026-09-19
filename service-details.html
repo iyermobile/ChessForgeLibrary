@@ -4,232 +4,268 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>Service Details - MyPortfolio Bootstrap Template</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-  <style>
-    /* Prevent sticky header from covering the anchor targets */
-    .service-item-content {
-      scroll-margin-top: 100px;
-      padding: 20px;
-      background: #f8f9fa;
-      border-radius: 8px;
-      margin-bottom: 30px;
-    }
-    
-    .services-list {
-      position: sticky;
-      top: 100px;
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
-    }
+  <!-- =======================================================
+  * Template Name: MyPortfolio
+  * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
+  * Updated: Aug 08 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+<style type="text/css">
+	/* Style for your navigation links */
+.services-list a {
+  display: inline-block;
+  padding: 10px 15px;
+  color: #333;
+  text-decoration: none;
+}
 
-    .services-list a {
-      display: block;
-      padding: 12px 15px;
-      color: #333;
-      transition: 0.3s;
-      border-left: 3px solid #ddd;
-      text-decoration: none;
-      font-weight: 500;
-    }
+/* Highlight the active navigation link */
+.services-list a.active {
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}
 
-    .services-list a:hover, .services-list a.active {
-      color: #000;
-      font-weight: 700;
-      border-left-color: #000;
-      background: #f1f1f1;
-    }
+/* Hide all content blocks by default */
+.service-tab {
+  display: none;
+  padding: 20px;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+}
 
-    /* Accordion styles for interactive component tabs */
-    .accordion-item {
-      border: 1px solid #dee2e6;
-      margin-top: 10px;
-      border-radius: 4px;
-    }
-    .accordion-button:not(.collapsed) {
-      background-color: #f8f9fa;
-      color: #000;
-      box-shadow: none;
-    }
-    .accordion-button {
-      font-weight: 600;
-    }
-  </style>
+/* Show the active content block */
+.service-tab.active {
+  display: block;
+}
+
+</style>
+
 </head>
 
-<body>
+<body class="service-details-page">
 
-  <!-- ======= Navbar ======= -->
-  <nav class="navbar navbar-light custom-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">MyPortfolio.</a>
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid  position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">MyPortfolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
     </div>
-  </nav>
+  </header>
 
-  <main id="main">
+  <main class="main">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <section class="breadcrumbs">
+    <!-- Page Title -->
+    <div class="page-title light-background">
       <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Service Details</h2>
+        <h1>Service Details</h1>
+        <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Service Details</li>
+            <li class="current">Service Details</li>
           </ol>
-        </div>
+        </nav>
       </div>
-    </section>
+    </div><!-- End Page Title -->
 
-    <!-- ======= Service Details Section ======= -->
-    <section id="service-details" class="service-details section py-5">
-      <div class="container" data-aos="fade-up">
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
         <div class="row gy-4">
 
-          <!-- Sidebar Menu with Fixed Anchor Links -->
-          <div class="col-lg-4">
-            <div class="services-list">
-              <a href="#web-design" class="service-link active">Web Design</a>
-              <a href="#software-development" class="service-link">Software Development</a>
-              <a href="#product-management" class="service-link">Product Management</a>
-              <a href="#graphic-design" class="service-link">Graphic Design</a>
-              <a href="#marketing" class="service-link">Marketing</a>
-            </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+<!-- The Navigation Links -->
+<div class="services-list">
+  <a href="#" class="service-link active" data-target="web-design">Web Design</a>
+  <a href="#" class="service-link" data-target="software-dev">Software Development</a>
+  <a href="#" class="service-link" data-target="product-mgmt">Product Management</a>
+  <a href="#" class="service-link" data-target="graphic-design">Graphic Design</a>
+  <a href="#" class="service-link" data-target="marketing">Marketing</a>
+</div>
+
+<!-- The Content Containers -->
+<div class="services-content">
+  <div id="web-design" class="service-tab active">
+    <h3>Web Design Services</h3>
+    <p>Custom websites, UI/UX design, and responsive layouts.</p>
+  </div>
+  
+  <div id="software-dev" class="service-tab">
+    <h3>Software Development</h3>
+    <p>Enterprise applications, API integrations, and cloud solutions.</p>
+  </div>
+  
+  <div id="product-mgmt" class="service-tab">
+    <h3>Product Management</h3>
+    <p>Roadmapping, market research, and agile sprint planning.</p>
+  </div>
+  
+  <div id="graphic-design" class="service-tab">
+    <h3>Graphic Design</h3>
+    <p>Branding, typography, illustrations, and marketing assets.</p>
+  </div>
+  
+  <div id="marketing" class="service-tab">
+    <h3>Digital Marketing</h3>
+    <p>SEO optimization, social media strategies, and PPC campaigns.</p>
+  </div>
+</div>
+
+
+            <h4>Enim qui eos rerum in delectus</h4>
+            <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime modi rerum.</p>
           </div>
 
-          <!-- Main Content Area with Matching IDs and Accordion Tabs -->
-          <div class="col-lg-8">
-            
-            <!-- Web Design Section -->
-            <section id="web-design" class="service-item-content">
-              <h3>Web Design</h3>
-              <p>We create beautiful, responsive websites tailored to your brand identity. Our focus is user experience, clean aesthetics, and conversion optimization.</p>
-              
-              <div class="accordion" id="webDesignAccordion">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#wd1">
-                      Our Frameworks & Stack
-                    </button>
-                  </h2>
-                  <div id="wd1" class="accordion-collapse collapse show" data-bs-parent="#webDesignAccordion">
-                    <div class="accordion-body">
-                      We primarily utilize Bootstrap, TailwindCSS, Vue.js, and React to deliver high-performance user interfaces.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#wd2">
-                      Timeline & Delivery
-                    </button>
-                  </h2>
-                  <div id="wd2" class="accordion-collapse collapse" data-bs-parent="#webDesignAccordion">
-                    <div class="accordion-body">
-                      Standard landing pages take 1-2 weeks, while extensive corporate portfolios or platforms average 4-6 weeks.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <!-- Software Development Section -->
-            <section id="software-development" class="service-item-content">
-              <h3>Software Development</h3>
-              <p>Blanditiis voluptate odit ex error ea sed officiis deserunt. Cupiditate non consequatur et doloremque consequuntur.</p>
-              
-              <div class="accordion" id="softwareAccordion">
-                <div class="accordion-item">
-                  <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#sd1">
-                      Backend & API Systems
-                    </button>
-                  </h2>
-                  <div id="sd1" class="accordion-collapse collapse show" data-bs-parent="#softwareAccordion">
-                    <div class="accordion-body">
-                      Scalable architectures built using Node.js, Python Django/FastAPI, and robust relational or NoSQL database clusters.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <!-- Product Management Section -->
-            <section id="product-management" class="service-item-content">
-              <h3>Product Management</h3>
-              <p>Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit.</p>
-            </section>
-
-            <!-- Graphic Design Section -->
-            <section id="graphic-design" class="service-item-content">
-              <h3>Graphic Design</h3>
-              <p>Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est.</p>
-            </section>
-
-            <!-- Marketing Section -->
-            <section id="marketing" class="service-item-content">
-              <h3>Marketing</h3>
-              <p>Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil laboriosam vel voluptates.</p>
-            </section>
-
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+            <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
+            <p>
+              Blanditiis voluptate odit ex error ea sed officiis deserunt. Cupiditate non consequatur et doloremque consequuntur. Accusantium labore reprehenderit error temporibus saepe perferendis fuga doloribus vero. Qui omnis quo sit. Dolorem architecto eum et quos deleniti officia qui.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+            </ul>
+            <p>
+              Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
+            </p>
+            <p>
+              Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
+            </p>
           </div>
 
         </div>
-      </div>
-    </section>
 
-  </main><!-- End #main -->
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">MyPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-  <!-- Script for Dynamic Scroll Highlighting -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const serviceSections = document.querySelectorAll('.service-item-content');
-      const navLinks = document.querySelectorAll('.services-list a');
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+<script>
+document.querySelectorAll('.service-link').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault(); // Prevent page from jumping/reloading
 
-      function changeActiveNavLink() {
-        let index = serviceSections.length;
-
-        // Loop through sections from bottom up to find the active section
-        while(--index && window.scrollY + 150 < serviceSections[index].offsetTop) {}
-        
-        navLinks.forEach((link) => link.classList.remove('active'));
-        if (navLinks[index]) {
-          navLinks[index].classList.add('active');
-        }
-      }
-
-      // Initial check on load and attach to scroll event
-      changeActiveNavLink();
-      window.addEventListener('scroll', changeActiveNavLink);
+    // 1. Remove active class from all navigation links
+    document.querySelectorAll('.service-link').forEach(link => {
+      link.classList.remove('active');
     });
-  </script>
+
+    // 2. Remove active class from all content tabs
+    document.querySelectorAll('.service-tab').forEach(tab => {
+      tab.classList.remove('active');
+    });
+
+    // 3. Add active class to the clicked navigation link
+    this.classList.add('active');
+
+    // 4. Find the matching content tab using data-target and show it
+    const targetId = this.getAttribute('data-target');
+    document.getElementById(targetId).classList.add('active');
+  });
+});
+</script>
 
 </body>
+
 </html>
