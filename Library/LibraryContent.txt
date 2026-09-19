@@ -1,8 +1,8 @@
 Redirect:
 Message:SHREERAM
-Bookcase:e3-e4-QGD
+Bookcase:e3-e4-ITALIAN
 Description:
-	Shelf:LONDON
+	Shelf:GUICO PIANO
 		Book:ALPHA-ALPHA-VIOLET-JAN-SUN
 		Description:
 		File: e3-e4-QGD/LONDON/London System.pgn
