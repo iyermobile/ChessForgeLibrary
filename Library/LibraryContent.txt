@@ -1,53 +1,28 @@
 Redirect:
 Message:SHREERAM
-Bookcase:e3-e4-ITALIAN
+Bookcase:ALPHA-ALPHA-RAINBOW-MONTHS-DAYS
 Description:
-	Shelf:GUICO PIANO
-		Book:ALPHA-ALPHA-VIOLET-JAN-SUN
+	Shelf:e3-e4-ITALIAN
+		Book:GUICO_PIANO
 		Description:
-		File: e3-e4-QGD/LONDON/London System.pgn
-		Book:ALPHA-ALPHA-VIOLET-JAN-MON
+		File: ALPHA-ALPHA_GUICO_PIANO.pgn
+		Book:GUICO_PIANO
 		Description:
-		File: e3-e4-QGD/LONDON/Budapest for White.pgn
-	Shelf:JOBAVA
-	Description:
-		Book:Budapest Gambit
+		File: ALPHA-ALPHA_GUICO_PIANO.pgn
+	Shelf:e3-e4-RUY_LOPEZ
+		Book:GUICO_PIANO
 		Description:
-		File: Openings/White/Budapest for White.pgn
-		Book:King's Indian - Karpov Variation
+		File: ALPHA-ALPHA_GUICO_PIANO.pgn
+		Book:GUICO_PIANO
 		Description:
-		File: Openings/White/King's Indian - Karpov variation for White.pgn
-		Book:Smith-Morra Gambit
+		File: ALPHA-ALPHA_GUICO_PIANO.pgn
+	Shelf:e3-e4-SCOTCH
+		Book:GUICO_PIANO
 		Description:
-		File: Openings/White/Smith Morra Gambit.pgn
-		Book:Evans Gambit
+		File: ALPHA-ALPHA_GUICO_PIANO.pgn
+		Book:GUICO_PIANO
 		Description:
-		File: Openings/White/Evans Gambit Starter Kit.pgn
-	Shelf:Black repertoire
-	Description:
-		Book:Classical Sicilian 2...d6, 5...Nc6
-		Description:efense.
-		File: Openings/Black/Classical Sicilian for Black.pgn
-		Book:Caro-Kann
-		Description:
-		File: Openings/Black/Caro-Kann for Black.pgn
-		Book:Exchange French
-		Description:
-		File: Openings/Black/French Exchange for Black.pgn
-		Book:Ragozin Defense
-		Description:
-		File: Openings/Black/Ragozin for Black.pgn
-		Book:Stafford Gambit Traps
-		Description:
-		File: Openings/Black/Stafford Gambit for Black.pgn
-	Shelf:Unorthodox Openings
-	Description:
-		Book:The Elephant Gambit
-		Description:
-		File: Openings/Unorthodox/Elephant Gambit.pgn
-		Book:The Nakhmanson Gambit
-		Description:
-		File: Openings/Unorthodox/Nakhmanson Gambit.pgn
+		File: ALPHA-ALPHA_GUICO_PIANO.pgn
 Bookcase: Endgames and Exercises
 Description:
 	Shelf:Endgames
