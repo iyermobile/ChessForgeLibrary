@@ -1,35 +1,20 @@
 Redirect:
 Message:SHREERAM
-Bookcase:e3-e4-ITALIAN_GUICO_PIANO
+Bookcase:ALL_GAMES
 Description:
-	Shelf:ALPHA-01-ALPHA
-		Book:GUICO_PIANO_ALPHA-01_ALPHA-01.pgn
-		Description:GUICO_PIANO_ALPHA-01_ALPHA-01.pgn
-		File: e3-e4-ITALIAN_GUICO_PIANO_ALPHA-01_ALPHA-01.pgn
-		Book:GUICO_PIANO_ALPHA-01_ALPHA-02.pgn
-		Description:GUICO_PIANO_ALPHA-01_ALPHA-02.pgn
-		File: e3-e4-ITALIAN_GUICO_PIANO_ALPHA-01_ALPHA-02.pgn
-	Shelf:e3-e4-RUY_LOPEZ
-		Book:GUICO_PIANO
-		Description:
-		File: ALPHA-ALPHA_GUICO_PIANO.pgn
-		Book:GUICO_PIANO
-		Description:
-		File: ALPHA-ALPHA_GUICO_PIANO.pgn
-	Shelf:e3-e4-SCOTCH
-		Book:GUICO_PIANO
-		Description:
-		File: ALPHA-ALPHA_GUICO_PIANO.pgn
-		Book:GUICO_PIANO
-		Description:
-		File: ALPHA-ALPHA_GUICO_PIANO.pgn
-Bookcase: Endgames and Exercises
+	Shelf:e3-e4-ITALIAN_GUICO_PIANO
+		Book:ALPHA-ALPHA
+		Description:GUICO_PIANO_ALPHA_ALPHA.pgn
+		File: e3-e4-ITALIAN_GUICO_PIANO_ALPHA_ALPHA.pgn
+Bookcase:ALL_DOMINANT
 Description:
-	Shelf:Endgames
-	Description:
-		Book:Endgames by NoseKnowsAll
-		Description:
-		File: Endgames/Endgames by NoseKnowsAll.pgn
-		Book:Checkmate Patterns
-		Description:
-		File: Endgames/Checkmate Patterns.pgn
+	Shelf:ALPHA-ALPHA
+		Book:e3-e4-ITALIAN_GUICO_PIANO
+		Description:e3-e4-ITALIAN_GUICO_PIANO
+		File: e3-e4-ITALIAN_GUICO_PIANO_ALPHA_ALPHA.pgn
+Bookcase:WHITE_REPERTOIRE
+Description:
+	Shelf:ALPHA-ALPHA
+		Book:e3-e4-ITALIAN_GUICO_PIANO
+		Description:e3-e4-ITALIAN_GUICO_PIANO
+		File: e3-e4-ITALIAN_GUICO_PIANO_ALPHA_ALPHA.pgn
