@@ -1,22 +1,15 @@
 Bookcase: FAVORITES_TOURNAMENTS
 Description: 
 
-    Shelf: e3-e4-ITALIAN_GUICO_PIANO
-    Description: 
-
-        Book: ALPHA-ALPHA
-        Description: GUICO_PIANO_ALPHA_ALPHA.pgn
-        File: e3-e4-ITALIAN_GUICO_PIANO_ALPHA_ALPHA.pgn
-
 Bookcase: W_ITALIAN
 Description: W_D50_ITALIAN_D51_TO_D59_ARIES_ASIA_INDIAN
 
-    Shelf: GUICO_PIANO_ARIES_VIOLET
-    Description: W_D50_ITALIAN_GUICO_PIANO
+    Shelf: 44-b3-44-b3-OO-LOOKee-ROOKf
+    Description: OO / OOO / BASE0 / BASE1 / 
 
-        Book: ARIES_VIOLET_
-        Description: GP_VARIATIONS
-        File: W_ITALIAN_GUICO_PIANO_VARIATIONS.pgn
+        Book: FISHY-c5
+        Description: 
+        File: 44-b3-44-b3-OO-LOOKee-ROOKf-FISHY-c5.pgn
 
         Book: GP_VARIATIONS
         Description: GP_VARIATIONS
